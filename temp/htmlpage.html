@@ -4,53 +4,32 @@
     <meta charset="utf-8" />
     <title></title>
 </head>
-<body>
-    <section data-bs-version="5.1" class="features16" group="Features" data-bg-video="{{bg.type == 'video' && bg.value.url}}" mbr-class="{'mbr-parallax-background': bg.parallax}">
+
+<body contenteditable="true">
+    <section data-bs-version="5.1" mbr-id="_inner-header" class="inner-header-section">
 
         <mbr-parameters>
-            <header>Size</header>
-            <input type="checkbox" title="Full Width" name="fullWidth" checked>
-            <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="0">
-            <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="3">
-            <input type="range" name="imageWidth" title="Image" min="4" max="8" step="1" value="4">
-            <header>Show/Hide</header>
-            <input type="checkbox" title="Title" name="showTitle">
-            <input type="checkbox" title="Text" name="showText" checked>
-            <input type="checkbox" title="Buttons" name="showButtons">
-            <input type="color" title="Card Color" name="cardColor" value="#232323" selected>
-            <header>Background</header>
-            <fieldset type="background" name="bg" parallax>
-                <input type="image" title="Image" value>
-                <input type="color" title="Color" value="#353535" selected>
-                <input type="video" title="Video" value="https://vimeo.com/428046504">
-            </fieldset>
-            <header condition="bg.type === 'video'">Fallback Image</header>
-            <input type="image" title="Fallback Image" value name="fallBackImage" condition="bg.type === 'video'">
-            <input type="checkbox" title="Overlay" name="overlay" condition="bg.type !== 'color'" checked>
-            <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff" condition="overlay && bg.type !== 'color'">
-            <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.5" condition="overlay && bg.type !== 'color'">
+            <!-- Block parameters controls (Blue "Gear" panel) -->
+            <input type="range" inline title="Top" name="paddingTop" min="1" max="8" step="1" value="1">
+            <input type="range" inline title="Bottom" name="paddingBottom" min="1" max="8" step="1" value="1">
+            <input type="color" title="Background Color" name="bgColor" value="#232323">
+            <input type="color" title="Text Color" name="tColor" value="#bbbbbb">
+            <!-- End block parameters -->
         </mbr-parameters>
 
-        <div class="mbr-fallback-image disabled" mbr-if="bg.type == 'video'"></div>
-        <div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'" mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
-        </div>
-        <div mbr-class="{'container': !fullWidth, 'container-fluid': fullWidth}">
-            <div class="content-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg">
-                        <h4 class="mbr-section-title mbr-fonts-style mb-4" mbr-if="showTitle" data-app-selector=".mbr-section-title" mbr-theme-style="display-5">Key takeaways from the example include the importance of:</h4>
-                        <div class="mbr-text mbr-fonts-style" mbr-theme-style="display-7" data-app-selector=".mbr-text" data-multiline mbr-article>
-                            <ol>
-                                <li><strong>Adapting to Emerging Trends:</strong> Adapting to emerging search trends such as voice search is essential for maintaining relevance and competitiveness in the digital marketplace. Businesses must stay informed, anticipate changes in user behavior, and adapt their SEO strategies accordingly.</li>
-                                <li><strong>User-Centric Optimization:</strong> Voice search optimization requires a user-centric approach focused on understanding user intent, preferences, and search behavior. Tailoring content to match conversational queries and providing concise, authoritative answers enhances user satisfaction and engagement.</li>
-                                <li><strong>Innovation and Differentiation:</strong> Embracing voice search optimization enables businesses to innovate and differentiate themselves in the competitive landscape of SEO. By staying ahead of the curve and embracing emerging technologies, businesses can capture new opportunities for growth and expansion.</li>
-                            </ol>
+        <section class="inner-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 aligner">
+                        <div class="breadcrumbs">
+                            <p class="mb-0"><a class="inner-header-link text-primary" href="index">Home</a> &nbsp;/&nbsp; <a href="digital-marketing-trends" class="text-primary">Stay up-to-date with the latest digital marketing trends.</a> &nbsp;/&nbsp; <a class="inner-header-link text-primary" href="index">Blog Post Series: Mastering Digital Marketing Subscriptions</a> &nbsp;/&nbsp; Case Study 1: Sarah's Journey in Identifying Her Areas of Interest</p>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
+        </section>
     </section>
+
 </body>
+
 </html>
