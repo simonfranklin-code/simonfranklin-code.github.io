@@ -1,8 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://simonfranklin-code.github.io/index.html</loc>
-	</url>
-	<url>
 		<loc>https://simonfranklin-code.github.io/digital-marketing-trends.html</loc>
 	</url>
 	<url>
@@ -559,5 +556,11 @@
 	</url>
 	<url>
 		<loc>https://simonfranklin-code.github.io/Six-Things-That-You-Should-know-as-a-Digital-Marketing-Guru.html</loc>
+	</url>
+	<url>
+		<loc>https://simonfranklin-code.github.io/digital-marketing-guru.html</loc>
+	</url>
+	<url>
+		<loc>https://simonfranklin-code.github.io/index.html</loc>
 	</url>
 </urlset>
