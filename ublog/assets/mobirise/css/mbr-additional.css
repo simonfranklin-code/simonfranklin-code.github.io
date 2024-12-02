@@ -881,7 +881,7 @@ a {
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #232323;
+  background-color: #f7f7f7;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -910,7 +910,7 @@ a {
   border-radius: 1.5rem;
   transition: .3s all !important;
   min-width: auto;
-  background: #232323;
+  background: #f7f7f7;
 }
 .cid-ulGZJAkc9I .nav-item:focus,
 .cid-ulGZJAkc9I .nav-link:focus {
@@ -1066,7 +1066,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-ulGZJAkc9I .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #f7f7f7;
 }
 .cid-ulGZJAkc9I .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1230,7 +1230,7 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #232323;
+    background: #f7f7f7;
     backdrop-filter: blur(8px);
   }
   .cid-ulGZJAkc9I .navbar-nav .nav-item .nav-link::after {
@@ -1801,7 +1801,7 @@ a {
   align-items: center;
   border-radius: 100vw;
   margin-top: 1rem;
-  background-color: #232323;
+  background-color: #f7f7f7;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
 @media (max-width: 992px) {
@@ -1830,7 +1830,7 @@ a {
   border-radius: 1.5rem;
   transition: .3s all !important;
   min-width: auto;
-  background: #232323;
+  background: #f7f7f7;
 }
 .cid-ulGZJAkc9I .nav-item:focus,
 .cid-ulGZJAkc9I .nav-link:focus {
@@ -1986,7 +1986,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-ulGZJAkc9I .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #f7f7f7;
 }
 .cid-ulGZJAkc9I .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -2150,7 +2150,7 @@ a {
     width: 100%;
     padding: 1rem;
     border-radius: 1.5rem;
-    background: #232323;
+    background: #f7f7f7;
     backdrop-filter: blur(8px);
   }
   .cid-ulGZJAkc9I .navbar-nav .nav-item .nav-link::after {
@@ -2217,7 +2217,7 @@ a {
 .cid-umgsOt2GOR {
   padding-top: 9rem;
   padding-bottom: 3rem;
-  background-color: #edefeb;
+  background-color: #232323;
 }
 .cid-umgsOt2GOR .mbr-fallback-image.disabled {
   display: none;
@@ -2253,11 +2253,11 @@ a {
   }
 }
 .cid-umgsOt2GOR .mbr-section-title {
-  color: #000000;
+  color: #f7f7f7;
 }
 .cid-umgsOt2GOR .mbr-text,
 .cid-umgsOt2GOR .mbr-section-btn {
-  color: #000000;
+  color: #f7f7f7;
 }
 .cid-umiuWfHGNf {
   padding-top: 0rem;
