@@ -1544,8 +1544,8 @@ a {
   color: #f7f7f7;
 }
 .cid-umiuWfHGNf {
-  padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #232323;
 }
 .cid-umiuWfHGNf .mbr-fallback-image.disabled {
@@ -2217,7 +2217,7 @@ a {
 .cid-umgsOt2GOR {
   padding-top: 9rem;
   padding-bottom: 3rem;
-  background-color: #232323;
+  background-image: url("../../../assets/images/strategic-use-of-search-engines-694x694.webp");
 }
 .cid-umgsOt2GOR .mbr-fallback-image.disabled {
   display: none;
@@ -2259,9 +2259,12 @@ a {
 .cid-umgsOt2GOR .mbr-section-btn {
   color: #f7f7f7;
 }
+.cid-umgsOt2GOR H1 {
+  color: #f7f7f7;
+}
 .cid-umiuWfHGNf {
-  padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #232323;
 }
 .cid-umiuWfHGNf .mbr-fallback-image.disabled {
