@@ -11,6 +11,7 @@
   
   
   <title>Home</title>
+  <link rel="stylesheet" href="assets/dev-icons/css/devicon.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/css/solid.min.css">
   <link rel="stylesheet" href="assets/material-design/css/material-icons.min.css">
@@ -51,7 +52,7 @@
 				</div>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav nav-dropdown navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
+				<ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
 						<a class="nav-link link text-black display-4" href="index.html#about">Home</a>
 					</li><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html#about">About</a></li>
 					<li class="nav-item">
@@ -60,8 +61,21 @@
 					<li class="nav-item">
 						<a class="nav-link link text-black display-4" href="#">Blog Feed</a>
 					</li></ul>
+				<div class="icons-menu">
+					<a class="iconfont-wrapper" href="#">
+						<span class="p-2 mbr-iconfont socicon-facebook socicon" style="color: rgb(35, 35, 35); fill: rgb(35, 35, 35);"></span>
+					</a>
+					<a class="iconfont-wrapper" href="#">
+						<span class="p-2 mbr-iconfont socicon-twitter socicon" style="color: rgb(35, 35, 35); fill: rgb(35, 35, 35);"></span>
+					</a>
+					<a class="iconfont-wrapper" href="#">
+						<span class="p-2 mbr-iconfont socicon-instagram socicon" style="color: rgb(35, 35, 35); fill: rgb(35, 35, 35);"></span>
+					</a>
+					<a class="iconfont-wrapper" href="">
+						<span class="p-2 mbr-iconfont devicon-linkedin-plain" style="color: rgb(35, 35, 35); fill: rgb(35, 35, 35);"></span>
+					</a>
+				</div>
 				
-				<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="https://mobiri.se"><span class="material material-forward mbr-iconfont mbr-iconfont-btn"></span>Get Started!</a></div>
 			</div>
 		</div>
 	</nav>
@@ -132,7 +146,7 @@
 					<p class="mbr-text mbr-fonts-style mb-4 display-7">
 						uBlog, empowers individuals to express themselves through blogging. Our platform, built on cutting-edge technology like Node.js, Express, and Mobirise enables users to create unlimited blogs and posts effortlessly. With features like comments, reviews, and social media integration, you can engage with your audience like never before. Import your existing Mobirise 5 sites and customize your mobile-friendly blocks with ease. Join our community and start sharing your story today!
 					</p>
-					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-white display-7" href="https://mobiri.se">Get Started</a></div>
+					<div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-white display-7" href="getting-started.html">Get Started</a></div>
 				</div>
 			</div>
 		</div>
@@ -180,7 +194,7 @@
 						
 						<p class="mbr-text mbr-fonts-style display-7">Responsive blocks that look great on any device.
 						</p>
-						<div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-black display-7">Learn More</a></div>
+						<div class="mbr-section-btn item-footer"><a href="javascript:OpenModal('Modal-Mobile-Friendly-blocks')" class="btn item-btn btn-black display-7">Learn More</a></div>
 					</div>
 				</div>
 			</div>
@@ -195,7 +209,7 @@
 						<p class="mbr-text mbr-fonts-style display-7">
 							Connect with your audience through social media features.<br>
 						</p>
-						<div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-black display-7">Learn More</a></div>
+						<div class="mbr-section-btn item-footer"><a href="javascript:OpenModal('Modal-Social-media-features')" class="btn item-btn btn-black display-7">Learn More</a></div>
 					</div>
 				</div>
 			</div>
@@ -286,87 +300,171 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<section data-bs-version="5.1" class="features1 cid-ulHeygnNUa" id="featured-blogs">
-  
+<section class="mbr-section" id="witsec-modal-window-block-o" data-rv-view="250">
 
-  
-  
-  <div class="container-fluid">
-    <div class="row justify-content-center mb-5">
-      <div class="col-12 content-head">
-        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-          <strong>Featured Blogs</strong></h3>
-        
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-sm-6 col-md-12 mb-3 mb-lg-0 col-lg-4">
-        <div class="card-wrap card1">
-          <div class="image-wrap">
-            <img src="assets/images/a-digital-marketer-on-the-right-side-of-the-image-using-a-computer.webp" alt="Mobirise Website Builder">
-            <div class="social-row display-7">
-              <div class="soc-item tag1">
-                <span class="tag1 mbr-fonts-style display-7"><a href="/blog/digital-marketing-dreams/digital-marketing-guru" class="text-primary">enter</a></span>
-              </div>
-            </div>
-          </div>
-          <div class="content-wrap">
-            <h5 class="mbr-card-title card-title1 mbr-fonts-style align-left mb-2 display-5"><strong>Digital Marketing Dreams</strong></h5>
-            
-            <p class="card-text1 mbr-fonts-style align-left mb-3 display-7">
-              Becoming a Digital Marketing Guru: Unleashing Your Potential in the Online Landscape.
-            </p>
-            <div class="mbr-section-btn align-left content-footer"><a class="btn article-btn btn-warning display-7" href="/blog/digital-marketing-dreams/index">enter<strong></strong></a></div>
-          </div>
-        </div>
-      </div>
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
 
-      <div class="col-sm-6 col-md-12 mb-3 mb-lg-0 col-lg-4">
-        <div class="card-wrap card2">
-          <div class="image-wrap">
-            <img src="assets/images/a-man-or-woman-with-a-laptop-writing-a-blog-post-1024x1024.webp" alt="Mobirise Website Builder">
-            <div class="social-row display-7">
-              <div class="soc-item tag2">
-                <span class="tag2 mbr-fonts-style display-7">enter</span>
-              </div>
-            </div>
-          </div>
-          <div class="content-wrap">
-            <h5 class="mbr-card-title card-title2 mbr-fonts-style align-left mb-2 display-5"><strong>The Building of You Blog</strong></h5>
-            
-            <p class="card-text2 mbr-fonts-style align-left mb-3 display-7">
-              From Foundations to Followers.<br>
-            </p>
-            <div class="mbr-section-btn btn-section align-left content-footer"><a class="btn article-btn btn-white display-7">enter<strong></strong></a></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-12 mb-3 mb-lg-0 col-lg-4">
-        <div class="card-wrap card3">
-          <div class="image-wrap">
-            <img src="assets/images/build-you-blog-696x696.webp" alt="Mobirise Website Builder">
-            <div class="social-row display-7">
-              <div class="soc-item tag3">
-                <span class="tag3 mbr-fonts-style display-7">enter</span>
-              </div>
-            </div>
-          </div>
-          <div class="content-wrap">
-            <h5 class="mbr-card-title card-title3 mbr-fonts-style align-left mb-2 display-5">
-              <strong>Your Blog Here</strong></h5>
-            
-            <p class="card-text3 mbr-fonts-style align-left mb-3 display-7">
-              From Pixels to Paragraphs: Building Your Blog.
-            </p>
-            <div class="mbr-section-btn btn-section align-left content-footer"><a class="btn article-btn btn-black display-7" href="/users/register"><span class="fas fa-blog mbr-iconfont mbr-iconfont-btn"></span>Get started</a></div>
-          </div>
-        </div>
-      </div>
+	
+	
+	<div><div class="modal fade" id="Modal-Mobile-Friendly-blocks" tabindex="-1" role="dialog" aria-labelledby="Modal-Mobile-Friendly-blocksLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title display-7" id="Modal-Mobile-Friendly-blocksLabel">Mobile-Friendly blocks</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body display-7" id="Modal-Mobile-Friendly-blocks_body"><div data-aos="slide-up" data-aos-offset="120" data-aos-delay="100" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true" class="sb-text-image__content-paragraph aos-init aos-animate" data-component-field="paragraph" data-sb-field="" data-sb-is-link="" data-sb-type="rich-text" data-sb-uuid="775e6b06-baa2-4a59-b779-f4951cd5e4b8"><p>With You Blog, you can create stunning, mobile-friendly blocks that adapt seamlessly to any screen size. Utilize customizable CSS styles, images, and text to ensure your content looks its best on smartphones, tablets, and desktops. Our platform facilitates the design process, allowing you to focus on crafting engaging narratives that resonate with your audience. Showcase your creativity and make a lasting impression with visually appealing layouts that enhance the user experience. Elevate your blogging game and reach your audience wherever they are by leveraging our advanced mobile-friendly capabilities today!</p></div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script type="text/plain"> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Modal-Mobile-Friendly-blocks").on("hidden.bs.modal", function () { 
+      var html = $( "#Modal-Mobile-Friendly-blocks_body" ).html(); 
+      $( "#Modal-Mobile-Friendly-blocks_body" ).empty(); 
+      $( "#Modal-Mobile-Friendly-blocks_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Modal-Mobile-Friendly-blocks") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
 
-      
-    </div>
-  </div>
-</section>
+	<script type="text/plain">
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script type="text/plain">
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Modal-Mobile-Friendly-blocks_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Modal-Mobile-Friendly-blocks_viewed", true, 3600);
+      OpenModal("Modal-Mobile-Friendly-blocks");
+    } , 0);
+  }
+});
+</script>
+
+<section class="mbr-section" id="witsec-modal-window-block-p" data-rv-view="251">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Modal-Social-media-features" tabindex="-1" role="dialog" aria-labelledby="Modal-Social-media-featuresLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title display-7" id="Modal-Social-media-featuresLabel">Social media features</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body display-7" id="Modal-Social-media-features_body">  <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="100" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true" class="sb-text-image__content-paragraph aos-init aos-animate" data-component-field="paragraph" data-sb-field="" data-sb-is-link="" data-sb-type="rich-text" data-sb-uuid="37cfbdd5-d874-42c5-8779-9acdcc38b9f2"><p>Engage with your readers like never before through You Blog's robust social media integration. Our platform offers features such as likes, friends, and followers, making it easy for you to build a loyal community around your content. Encourage interaction and feedback through comments and reviews, creating a dynamic space where your audience can express their thoughts. By connecting your blogs to social media, you expand your reach and visibility, driving more traffic to your posts. Foster relationships and grow your influence in the blogging world with our powerful social media tools at your fingertips!</p></div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script type="text/plain"> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Modal-Social-media-features").on("hidden.bs.modal", function () { 
+      var html = $( "#Modal-Social-media-features_body" ).html(); 
+      $( "#Modal-Social-media-features_body" ).empty(); 
+      $( "#Modal-Social-media-features_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Modal-Social-media-features") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script type="text/plain">
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script type="text/plain">
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Modal-Social-media-features_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Modal-Social-media-features_viewed", true, 3600);
+      OpenModal("Modal-Social-media-features");
+    } , 0);
+  }
+});
+</script>
 
 <section data-bs-version="5.1" class="footer1 cid-umiuWfHGNf" once="footers" id="footer">
 	
