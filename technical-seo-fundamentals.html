@@ -108,7 +108,7 @@
         </nav>
     </section>
 
-<section class="engine"><a href="https://mobirise.info">Mobirise</a></section><section data-bs-version="5.1" class="header1 cid-u44hH3antB mbr-parallax-background" id="Technical-SEO-Fundamentals">
+<section class="engine"><a href="https://mobirise.info/w">free html5 templates</a></section><section data-bs-version="5.1" class="header1 cid-u44hH3antB mbr-parallax-background" id="Technical-SEO-Fundamentals">
 
     
 
@@ -249,7 +249,88 @@
     </div>
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-2z7" data-rv-view="805">
 
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Modal-Key-Points" tabindex="-1" role="dialog" aria-labelledby="Modal-Key-PointsLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title display-7" id="Modal-Key-PointsLabel">Key Points:</h5>  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body display-7" id="Modal-Key-Points_body"><ul><li><strong>Image and File Optimization:</strong> Compress images and minify CSS/JavaScript files to reduce file sizes without compromising quality.</li><li><strong>Browser Caching:</strong> Implement caching to store static resources locally on users’ devices, which helps in reducing load times for repeat visitors.</li><li><strong>Content Delivery Networks (CDNs):</strong> Use CDNs to serve content from servers that are geographically closer to your users, decreasing latency.</li><li><strong>Server Performance:</strong> Optimize server configurations and choose reliable hosting to minimize response times.</li></ul></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Modal-Key-Points").on("hidden.bs.modal", function () { 
+      var html = $( "#Modal-Key-Points_body" ).html(); 
+      $( "#Modal-Key-Points_body" ).empty(); 
+      $( "#Modal-Key-Points_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Modal-Key-Points") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Modal-Key-Points_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Modal-Key-Points_viewed", true, 3600);
+      OpenModal("Modal-Key-Points");
+    } , 0);
+  }
+});
+</script>
 
 <section data-bs-version="5.1" class="features16 cid-uBVjzN5kz1" id="2-Mobile-Friendliness">
 
@@ -277,7 +358,88 @@
     </div>
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-2z9" data-rv-view="809">
 
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Modal-Mobile-Friendliness" tabindex="-1" role="dialog" aria-labelledby="Modal-Mobile-FriendlinessLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title display-7" id="Modal-Mobile-FriendlinessLabel">Mobile Friendliness</h5>  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body display-7" id="Modal-Mobile-Friendliness_body"><ul><li><strong>Responsive Web Design:</strong> Ensure that your website adjusts seamlessly to various screen sizes and orientations.</li><li><strong>Mobile Optimization Techniques:</strong> Optimize images, fonts, and interactive elements for mobile devices to provide a smooth browsing experience.</li><li><strong>Testing and Validation:</strong> Use tools like Google’s Mobile-Friendly Test to evaluate and refine your website’s mobile performance.</li><li><strong>Accelerated Mobile Pages (AMP):</strong> Consider implementing AMP to further enhance mobile load times and user experience.</li></ul></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Modal-Mobile-Friendliness").on("hidden.bs.modal", function () { 
+      var html = $( "#Modal-Mobile-Friendliness_body" ).html(); 
+      $( "#Modal-Mobile-Friendliness_body" ).empty(); 
+      $( "#Modal-Mobile-Friendliness_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Modal-Mobile-Friendliness") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Modal-Mobile-Friendliness_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Modal-Mobile-Friendliness_viewed", true, 3600);
+      OpenModal("Modal-Mobile-Friendliness");
+    } , 0);
+  }
+});
+</script>
 
 <section data-bs-version="5.1" class="features17 cid-uBVmBFJ9de" id="3-Indexing-and-Crawling">
     
@@ -304,7 +466,88 @@
     </div>
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-2zb" data-rv-view="813">
 
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Modal-Indexing-and-Crawling" tabindex="-1" role="dialog" aria-labelledby="Modal-Indexing-and-CrawlingLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title display-7" id="Modal-Indexing-and-CrawlingLabel">Indexing and Crawling</h5>  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body display-7" id="Modal-Indexing-and-Crawling_body"><ul><li><strong>XML Sitemaps:</strong> Create and submit XML sitemaps to guide search engines to all important pages on your website.</li><li><strong>Robots.txt:</strong> Use a robots.txt file to control which parts of your site should be crawled and which should be excluded, preserving crawl budget.</li><li><strong>Internal Linking:</strong> Develop a robust internal linking strategy that helps distribute link equity and guides search engine bots through your site structure.</li><li><strong>Canonicalization:</strong> Use canonical tags to prevent duplicate content issues and consolidate ranking signals to the preferred version of a page.</li></ul></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Modal-Indexing-and-Crawling").on("hidden.bs.modal", function () { 
+      var html = $( "#Modal-Indexing-and-Crawling_body" ).html(); 
+      $( "#Modal-Indexing-and-Crawling_body" ).empty(); 
+      $( "#Modal-Indexing-and-Crawling_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Modal-Indexing-and-Crawling") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Modal-Indexing-and-Crawling_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Modal-Indexing-and-Crawling_viewed", true, 3600);
+      OpenModal("Modal-Indexing-and-Crawling");
+    } , 0);
+  }
+});
+</script>
 
 <section data-bs-version="5.1" class="features16 cid-uBVq2RWhJN" id="4-Structured-Data-and-Schema-Markup">
 
@@ -333,7 +576,88 @@
     </div>
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-2zd" data-rv-view="817">
 
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Modal-Structured-Data-and-Schema-Markup" tabindex="-1" role="dialog" aria-labelledby="Modal-Structured-Data-and-Schema-MarkupLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title display-7" id="Modal-Structured-Data-and-Schema-MarkupLabel">Structured Data and Schema Markup</h5>  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body display-7" id="Modal-Structured-Data-and-Schema-Markup_body"><ul><li><strong>Implementation:</strong> Apply schema markup (using JSON-LD, Microdata, or RDFa) to various content types such as articles, products, events, and reviews.</li><li><strong>Enhanced Search Results:</strong> Rich snippets (e.g., star ratings, product prices, and event dates) provide additional context that can make your listings more appealing.</li><li><strong>Tools and Testing:</strong> Utilize tools like Google’s Structured Data Testing Tool or Rich Results Test to ensure proper implementation and troubleshoot errors.</li><li><strong>Improved User Experience:</strong> By clearly defining the content, structured data helps users quickly understand what your page offers, leading to better engagement.</li></ul></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Modal-Structured-Data-and-Schema-Markup").on("hidden.bs.modal", function () { 
+      var html = $( "#Modal-Structured-Data-and-Schema-Markup_body" ).html(); 
+      $( "#Modal-Structured-Data-and-Schema-Markup_body" ).empty(); 
+      $( "#Modal-Structured-Data-and-Schema-Markup_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Modal-Structured-Data-and-Schema-Markup") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Modal-Structured-Data-and-Schema-Markup_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Modal-Structured-Data-and-Schema-Markup_viewed", true, 3600);
+      OpenModal("Modal-Structured-Data-and-Schema-Markup");
+    } , 0);
+  }
+});
+</script>
 
 <section data-bs-version="5.1" class="features17 cid-u44scSdfKA" id="Case-Study-Website-Speed-Optimization">
     
